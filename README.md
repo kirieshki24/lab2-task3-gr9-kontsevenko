@@ -1,5 +1,4 @@
-# Lab 5 - MARSHRUT1 Structure
-
+Lab2 task3 Концевенко Алексей Витальевич
 ## Overview
 This project implements a program in C that works with a structure `MARSHRUT1`. The structure stores route information, including:
 - Route number
