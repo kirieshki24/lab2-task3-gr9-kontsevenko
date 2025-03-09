@@ -1,11 +1,42 @@
-# Overview
+# Lab 5 - MARSHRUT1 Structure
 
-It is public template of assignment `"labrabota 3"` for FPMI students
+## Overview
+This project implements a program in C that works with a structure `MARSHRUT1`. The structure stores route information, including:
+- Route number
+- Start point
+- End point
+- Route length
 
-# Usage
+The program provides functions to:
+- Create a list of up to 10 routes
+- Find the shortest route
+- Sort routes by length
+- Display routes that start or end at a specified point
 
-Please, edit README and add some details, as instance **{add your last name, first name and group number}**.
+## Usage
+### Compilation and Execution
+1. Compile the project using `make`:
+   ```sh
+   make
+   ```
+2. Run the program:
+   ```sh
+   ./program
+   ```
+3. Follow the on-screen prompts to enter and manipulate route data.
 
-# Building
+### Cleaning Up
+To remove compiled files:
+```sh
+make clean
+```
 
-Please, import repository and use for repl.it project, which is defined in the assignment "labrabota 3".
+## Building
+- The project uses `make` for compilation and dependency management.
+- A `Makefile` is provided for automated building.
+- GitHub Actions are configured to compile the project on push and pull requests.
+
+## Additional Notes
+https://github.com/kirieshki24/lab2-task1-gr9-kontsevenko
+https://github.com/kirieshki24/-tpmp-lab2-task2
+
