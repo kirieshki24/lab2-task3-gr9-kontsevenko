@@ -5,7 +5,7 @@
 #define MAX_NAME_LEN 50
 
 typedef struct {
-    int number;s
+    int number;
     char start_point[MAX_NAME_LEN];
     char end_point[MAX_NAME_LEN];
     double length;
