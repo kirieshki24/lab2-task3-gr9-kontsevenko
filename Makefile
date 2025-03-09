@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Werror -std=c11
-SOURCES = main.c marshrut.c
+SOURCES = src/main.c src/marshrut.c
 OBJECTS = $(SOURCES:.c=.o)
 EXECUTABLE = program
 
